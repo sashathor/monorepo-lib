@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "strict": true,
+    "lib": ["dom", "es2015"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "es2020",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "stripInternal": true,
+    "skipLibCheck": true
+  }
+}
