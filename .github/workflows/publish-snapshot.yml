@@ -1,9 +1,9 @@
-name: publish-release
+name: publish-snapshot
 
 on:
   push:
-    branches:
-      - main
+    branches-ignore:
+      - $default-branch
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -12,7 +12,6 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      # Setup
       - name: Checkout Repo
         uses: actions/checkout@v3
 
@@ -36,9 +35,11 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: yarn changeset version
-          # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn release
+          version: yarn changeset version --snapshot SNAPSHOT
+          publish: yarn changeset publish --tag SNAPSHOT --no-git-tag
+          title: 'chore(snapshot): Packages snapshots'
+          commit: 'chore(snapshot): releasing snapshot preview'
+          createGithubReleases: false
         env:
           GITHUB_TOKEN: ${{ secrets.GAT }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
