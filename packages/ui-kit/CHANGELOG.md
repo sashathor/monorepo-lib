@@ -1,5 +1,12 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.4.2
+
+### Patch Changes
+
+- 8e0182e: Add Button component
+- 63bc05a: Adjust yarn settings
+
 ## 0.4.1
 
 ### Patch Changes
