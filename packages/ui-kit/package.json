@@ -1,6 +1,6 @@
 {
   "name": "@sashathor/monorepo-lib-ui-kit",
-  "version": "0.0.0-SNAPSHOT-20231221135250",
+  "version": "0.0.0",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/cjs/index.js",
