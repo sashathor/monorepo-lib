@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.0.0
+
+### Patch Changes
+
+- f190ccf: Fix github action
+
 ## 0.0.0-SNAPSHOT-20231221135250
 
 ### Patch Changes
