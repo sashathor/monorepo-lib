@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.0.0-SNAPSHOT-20231220153020
+
+### Patch Changes
+
+- bdd842f: Adjust github actions
+
 ## 0.4.2
 
 ### Patch Changes
