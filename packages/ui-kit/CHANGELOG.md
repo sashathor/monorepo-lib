@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.5.0
+
+### Minor Changes
+
+- f1f9876: Fix version
+
 ## 0.0.0
 
 ### Patch Changes
