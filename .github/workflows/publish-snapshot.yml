@@ -3,7 +3,7 @@ name: publish-snapshot
 on:
   push:
     branches-ignore:
-      - $default-branch
+      - main
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
