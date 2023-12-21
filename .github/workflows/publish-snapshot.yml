@@ -25,6 +25,9 @@ jobs:
         with:
           cache_fresh_start: 'true'
 
+      - name: Set up npm authentication
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+
       - name: Create and Publish Snapshot
         run: |
           yarn changeset version --snapshot canary
