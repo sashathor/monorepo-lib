@@ -28,8 +28,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: yarn changeset version --snapshot SNAPSHOT
-          publish: yarn changeset publish --tag SNAPSHOT --no-git-tag
+          version: yarn changeset version --snapshot canary
+          publish: yarn changeset publish --tag canary --no-git-tag
           title: 'chore(snapshot): Packages snapshots'
           commit: 'chore(snapshot): releasing snapshot preview'
           createGithubReleases: false
