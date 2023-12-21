@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.0.0-SNAPSHOT-20231221135250
+
+### Patch Changes
+
+- a8e63e8: Remove comments from github actions
+
 ## 0.0.0-SNAPSHOT-20231220153020
 
 ### Patch Changes
