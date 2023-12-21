@@ -16,14 +16,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      # - name: Setup Node.js 16.x
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 16.x
-
-      # - name: Install Dependencies
-      #   run: yarn
-
       # Build
       - uses: actions/setup-node@v3
         with:
