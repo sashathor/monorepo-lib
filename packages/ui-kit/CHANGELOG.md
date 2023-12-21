@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.0.0
+
+### Patch Changes
+
+- a748c2c: Make publish-snapshot manual
+
 ## 0.0.0-canary-20231221143936
 
 ### Patch Changes
