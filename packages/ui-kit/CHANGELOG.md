@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.5.1
+
+### Patch Changes
+
+- 3f2beff: Rename tag from SNAPHOT to canary
+
 ## 0.5.0
 
 ### Minor Changes
