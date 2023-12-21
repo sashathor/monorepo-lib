@@ -33,7 +33,7 @@ runs:
       run: rm -rf node_modules/.cache
     - name: 'Install the project'
       shell: bash
-      run: yarn install
+      run: yarn install --immutable
     - name: 'Compile the project'
       shell: bash
       run: yarn prepare
