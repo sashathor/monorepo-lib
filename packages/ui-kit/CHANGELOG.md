@@ -1,5 +1,15 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.0.0-canary-20231221141954
+
+### Minor Changes
+
+- f1f9876: Fix version
+
+### Patch Changes
+
+- 01360e6: Change tag from SNAPSHOT to canary
+
 ## 0.0.0
 
 ### Patch Changes

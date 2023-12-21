@@ -1,6 +1,6 @@
 {
   "name": "@sashathor/monorepo-lib-ui-kit",
-  "version": "0.4.3",
+  "version": "0.0.0-canary-20231221141954",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/cjs/index.js",
