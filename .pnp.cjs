@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flint-staged%2F-%2Flint-staged-13.3.0.tgz"],\
             ["prettier", "npm:2.8.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fprettier%2F-%2Fprettier-2.8.8.tgz"],\
             ["turbo", "npm:1.11.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fturbo%2F-%2Fturbo-1.11.2.tgz"],\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3132,7 +3132,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flint-staged%2F-%2Flint-staged-13.3.0.tgz"],\
             ["prettier", "npm:2.8.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fprettier%2F-%2Fprettier-2.8.8.tgz"],\
             ["turbo", "npm:1.11.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fturbo%2F-%2Fturbo-1.11.2.tgz"],\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4460,7 +4460,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["natural-compare-lite", "npm:1.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnatural-compare-lite%2F-%2Fnatural-compare-lite-1.4.0.tgz"],\
             ["semver", "npm:7.5.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsemver%2F-%2Fsemver-7.5.4.tgz"],\
             ["tsutils", "virtual:a00d54b1e29e2b5f00e547ec012577d61fa20ab78ece954b6b04d4f338743493bb9311d79de8723cfd5aea374a5cca7989fe79f43202a190f3e02cca110ad3fe#npm:3.21.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftsutils%2F-%2Ftsutils-3.21.0.tgz"],\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -4492,7 +4492,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:e73217156eaaf9ab70636a49d3ceea24e61a044813cae94a029a47b6872c9109270fe4b14e626db05e4381c7c4b48161ad8d47e48e45b786f5e72ba13c9fd886#npm:5.62.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40typescript-eslint%2Ftypescript-estree%2F-%2Ftypescript-estree-5.62.0.tgz"],\
             ["debug", "virtual:89482b162c69d50097a20960cdb3c0f39c34766292adc59cf5f1d73135b4afba929b6ecac94a353e46cf9ba467b51c3006cc1ba4256c7aef7c7c55d2d1a8cdcc#npm:4.3.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fdebug%2F-%2Fdebug-4.3.4.tgz"],\
             ["eslint", "npm:8.56.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint%2F-%2Feslint-8.56.0.tgz"],\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -4533,7 +4533,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:89482b162c69d50097a20960cdb3c0f39c34766292adc59cf5f1d73135b4afba929b6ecac94a353e46cf9ba467b51c3006cc1ba4256c7aef7c7c55d2d1a8cdcc#npm:4.3.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fdebug%2F-%2Fdebug-4.3.4.tgz"],\
             ["eslint", "npm:8.56.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint%2F-%2Feslint-8.56.0.tgz"],\
             ["tsutils", "virtual:a00d54b1e29e2b5f00e547ec012577d61fa20ab78ece954b6b04d4f338743493bb9311d79de8723cfd5aea374a5cca7989fe79f43202a190f3e02cca110ad3fe#npm:3.21.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftsutils%2F-%2Ftsutils-3.21.0.tgz"],\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -4593,7 +4593,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fis-glob%2F-%2Fis-glob-4.0.3.tgz"],\
             ["semver", "npm:7.5.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsemver%2F-%2Fsemver-7.5.4.tgz"],\
             ["tsutils", "virtual:a00d54b1e29e2b5f00e547ec012577d61fa20ab78ece954b6b04d4f338743493bb9311d79de8723cfd5aea374a5cca7989fe79f43202a190f3e02cca110ad3fe#npm:3.21.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftsutils%2F-%2Ftsutils-3.21.0.tgz"],\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -14271,7 +14271,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsutils", "virtual:a00d54b1e29e2b5f00e547ec012577d61fa20ab78ece954b6b04d4f338743493bb9311d79de8723cfd5aea374a5cca7989fe79f43202a190f3e02cca110ad3fe#npm:3.21.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftsutils%2F-%2Ftsutils-3.21.0.tgz"],\
             ["@types/typescript", null],\
             ["tslib", "npm:1.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftslib%2F-%2Ftslib-1.14.1.tgz"],\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -14497,13 +14497,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-f482d81148-3d1b044496.zip/node_modules/typescript/",\
-          "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.4.4%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.4.4.tgz#~builtin<compat/typescript>::version=4.4.4&hash=bbeadb"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587", {\
           "packageLocation": "./.yarn/cache/typescript-patch-68fdf6ff58-1f8f3b6aae.zip/node_modules/typescript/",\
           "packageDependencies": [\
