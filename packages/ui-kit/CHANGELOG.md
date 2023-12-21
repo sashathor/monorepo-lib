@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.5.2
+
+### Patch Changes
+
+- a68a79c: Remove 2 from Box
+
 ## 0.0.0
 
 ### Patch Changes
