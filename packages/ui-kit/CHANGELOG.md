@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.0.0-canary-20231221143936
+
+### Patch Changes
+
+- 08a9725: Add Typography component
+
 ## 0.5.1
 
 ### Patch Changes
