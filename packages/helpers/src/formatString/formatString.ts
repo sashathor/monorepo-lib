@@ -4,3 +4,5 @@ export const formatString = (str: string, ...args: any[]) => {
     return typeof args[index] !== 'undefined' ? args[index] : match;
   });
 }
+
+export type FormatString = typeof formatString;
