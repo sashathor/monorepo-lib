@@ -2179,6 +2179,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sashathor/monorepo-helpers@workspace:packages/helpers":
+  version: 0.0.0-use.local
+  resolution: "@sashathor/monorepo-helpers@workspace:packages/helpers"
+  dependencies:
+    "@juggle/resize-observer": ^3.4.0
+    "@rollup/plugin-commonjs": ^25.0.7
+    "@rollup/plugin-node-resolve": ^15.2.3
+    "@rollup/plugin-terser": ^0.4.4
+    "@storybook/blocks": ^7.2.1
+    "@storybook/react": ^7.2.0
+    "@storybook/theming": ^7.4.0
+    "@swc/core": ^1.3.101
+    "@swc/jest": ^0.2.29
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^14.0.0
+    "@testing-library/user-event": ^14.4.3
+    "@types/jest": ^27.5.1
+    "@types/luxon": ^3.3.2
+    "@types/react": ^18.2.45
+    "@types/react-dom": ^18.2.18
+    "@types/testing-library__jest-dom": ^5.14.7
+    axios: ^1.6.2
+    classnames: ^2.3.2
+    dotenv: ^16.0.3
+    jest: ^27.5.1
+    jest-canvas-mock: ^2.5.2
+    jest-environment-jsdom: ^27.5.1
+    luxon: ^3.4.1
+    msw: ^1.3.2
+    postcss: ^8.4.32
+    raw-loader: ^4.0.2
+    react: ^18.2.0
+    react-docgen-typescript: ^2.2.2
+    react-dom: ^18.2.0
+    rollup: ^4.1.4
+    rollup-plugin-postcss: ^4.0.2
+    rollup-plugin-typescript2: ^0.36.0
+    sass: ^1.69.5
+    typescript: ^4.9.3
+  peerDependencies:
+    react: ^16.8 || ^17 || ^18
+    react-dom: ^16.8 || ^17 || ^18
+  languageName: unknown
+  linkType: soft
+
 "@sashathor/monorepo-lib-ui-kit@workspace:packages/ui-kit":
   version: 0.0.0-use.local
   resolution: "@sashathor/monorepo-lib-ui-kit@workspace:packages/ui-kit"
