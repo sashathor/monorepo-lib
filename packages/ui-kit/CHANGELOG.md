@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.5.3
+
+### Patch Changes
+
+- 3804d22: Clean-up publish-snapshot github action
+
 ## 0.5.2
 
 ### Patch Changes
