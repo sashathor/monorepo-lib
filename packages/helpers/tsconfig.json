@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/testing/mockStyles.ts"],
+  "exclude": ["src/**/*.stories.*", "dist", "api"]
+}
