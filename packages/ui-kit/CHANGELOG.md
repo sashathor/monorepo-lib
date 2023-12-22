@@ -1,5 +1,11 @@
 # @sashathor/monorepo-lib-ui-kit
 
+## 0.5.4
+
+### Patch Changes
+
+- 0219d5b: Add 2 to `Box` component
+
 ## 0.5.3
 
 ### Patch Changes
