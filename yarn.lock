@@ -3813,7 +3813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sashathor/monorepo-helpers@workspace:packages/helpers":
+"@sashathor/monorepo-helpers@workspace:^, @sashathor/monorepo-helpers@workspace:packages/helpers":
   version: 0.0.0-use.local
   resolution: "@sashathor/monorepo-helpers@workspace:packages/helpers"
   dependencies:
@@ -7839,6 +7839,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "demo2@workspace:apps/demo2"
   dependencies:
+    "@sashathor/monorepo-helpers": "workspace:^"
     "@testing-library/jest-dom": ^5.17.0
     "@testing-library/react": ^13.4.0
     "@testing-library/user-event": ^13.5.0
