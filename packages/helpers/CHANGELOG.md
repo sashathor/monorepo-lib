@@ -1,5 +1,11 @@
 # @sashathor/monorepo-helpers
 
+## 0.0.5
+
+### Patch Changes
+
+- 3d55ef6: Add console log
+
 ## 0.0.4
 
 ### Patch Changes
