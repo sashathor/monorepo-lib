@@ -20,6 +20,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:apps/demo1"\
       },\
       {\
+        "name": "demo2",\
+        "reference": "workspace:apps/demo2"\
+      },\
+      {\
         "name": "@sashathor/monorepo-helpers",\
         "reference": "workspace:packages/helpers"\
       },\
@@ -34,7 +38,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@sashathor/monorepo-helpers", ["workspace:packages/helpers"]],\
       ["@sashathor/monorepo-lib", ["workspace:."]],\
       ["@sashathor/monorepo-lib-ui-kit", ["workspace:packages/ui-kit"]],\
-      ["demo1", ["workspace:apps/demo1"]]\
+      ["demo1", ["workspace:apps/demo1"]],\
+      ["demo2", ["workspace:apps/demo2"]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -12839,6 +12844,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/demo1/",\
           "packageDependencies": [\
             ["demo1", "workspace:apps/demo1"],\
+            ["@testing-library/jest-dom", "npm:5.17.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Fjest-dom%2F-%2Fjest-dom-5.17.0.tgz"],\
+            ["@testing-library/react", "virtual:622c106be0865e6a1a673bb50329ecb2d0f40c9dd0ef15aa1949b60f14743079977a14080898e770573b84e3e487805800973d6cfcbd1d56ecae0f0ad6132311#npm:13.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Freact%2F-%2Freact-13.4.0.tgz"],\
+            ["@testing-library/user-event", "virtual:622c106be0865e6a1a673bb50329ecb2d0f40c9dd0ef15aa1949b60f14743079977a14080898e770573b84e3e487805800973d6cfcbd1d56ecae0f0ad6132311#npm:13.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Fuser-event%2F-%2Fuser-event-13.5.0.tgz"],\
+            ["@types/jest", "npm:27.5.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fjest%2F-%2Fjest-27.5.2.tgz"],\
+            ["@types/node", "npm:16.18.69::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fnode%2F-%2Fnode-16.18.69.tgz"],\
+            ["@types/react", "npm:18.2.46::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact%2F-%2Freact-18.2.46.tgz"],\
+            ["@types/react-dom", "npm:18.2.18::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-dom%2F-%2Freact-dom-18.2.18.tgz"],\
+            ["react", "npm:18.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-18.2.0.tgz"],\
+            ["react-dom", "virtual:622c106be0865e6a1a673bb50329ecb2d0f40c9dd0ef15aa1949b60f14743079977a14080898e770573b84e3e487805800973d6cfcbd1d56ecae0f0ad6132311#npm:18.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-18.2.0.tgz"],\
+            ["react-scripts", "virtual:622c106be0865e6a1a673bb50329ecb2d0f40c9dd0ef15aa1949b60f14743079977a14080898e770573b84e3e487805800973d6cfcbd1d56ecae0f0ad6132311#npm:5.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-scripts%2F-%2Freact-scripts-5.0.1.tgz"],\
+            ["typescript", "patch:typescript@npm%3A4.9.5%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Ftypescript%252F-%252Ftypescript-4.9.5.tgz#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+            ["web-vitals", "npm:2.1.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fweb-vitals%2F-%2Fweb-vitals-2.1.4.tgz"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["demo2", [\
+        ["workspace:apps/demo2", {\
+          "packageLocation": "./apps/demo2/",\
+          "packageDependencies": [\
+            ["demo2", "workspace:apps/demo2"],\
             ["@testing-library/jest-dom", "npm:5.17.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Fjest-dom%2F-%2Fjest-dom-5.17.0.tgz"],\
             ["@testing-library/react", "virtual:622c106be0865e6a1a673bb50329ecb2d0f40c9dd0ef15aa1949b60f14743079977a14080898e770573b84e3e487805800973d6cfcbd1d56ecae0f0ad6132311#npm:13.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Freact%2F-%2Freact-13.4.0.tgz"],\
             ["@testing-library/user-event", "virtual:622c106be0865e6a1a673bb50329ecb2d0f40c9dd0ef15aa1949b60f14743079977a14080898e770573b84e3e487805800973d6cfcbd1d56ecae0f0ad6132311#npm:13.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Fuser-event%2F-%2Fuser-event-13.5.0.tgz"],\
