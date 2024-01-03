@@ -1,8 +1,10 @@
 import React from 'react';
+import { formatString } from '@sashathor/monorepo-helpers'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log(formatString('hello world'))
   return (
     <div className="App">
       <header className="App-header">
