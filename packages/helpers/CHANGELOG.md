@@ -1,5 +1,11 @@
 # @sashathor/monorepo-helpers
 
+## 0.0.4
+
+### Patch Changes
+
+- 624ddb4: Remove console log
+
 ## 0.0.3
 
 ### Patch Changes
