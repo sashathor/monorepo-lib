@@ -1647,6 +1647,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.20.13":
+  version: 7.23.8
+  resolution: "@babel/runtime@npm:7.23.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.23.8.tgz"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 0bd5543c26811153822a9f382fd39886f66825ff2a397a19008011376533747cd05c33a91f6248c0b8b0edf0448d7c167ebfba34786088f1b7eb11c65be7dfc3
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15, @babel/template@npm:^7.3.3":
   version: 7.22.15
   resolution: "@babel/template@npm:7.22.15::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftemplate%2F-%2Ftemplate-7.22.15.tgz"
@@ -2401,6 +2410,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/core@npm:^1.5.3":
+  version: 1.5.3
+  resolution: "@floating-ui/core@npm:1.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40floating-ui%2Fcore%2F-%2Fcore-1.5.3.tgz"
+  dependencies:
+    "@floating-ui/utils": ^0.2.0
+  checksum: 72af8563e1742791acee82e86f82a0fbca7445809988d31eea3fd5771909463aa7655a6cb001cc244f8fe3a9de600420257e4dfb887ca33e2a31ac47b52e39a2
+  languageName: node
+  linkType: hard
+
 "@floating-ui/dom@npm:^1.5.1":
   version: 1.5.3
   resolution: "@floating-ui/dom@npm:1.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40floating-ui%2Fdom%2F-%2Fdom-1.5.3.tgz"
@@ -2408,6 +2426,16 @@ __metadata:
     "@floating-ui/core": ^1.4.2
     "@floating-ui/utils": ^0.1.3
   checksum: 00053742064aac70957f0bd5c1542caafb3bfe9716588bfe1d409fef72a67ed5e60450d08eb492a77f78c22ed1ce4f7955873cc72bf9f9caf2b0f43ae3561c21
+  languageName: node
+  linkType: hard
+
+"@floating-ui/dom@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "@floating-ui/dom@npm:1.5.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40floating-ui%2Fdom%2F-%2Fdom-1.5.4.tgz"
+  dependencies:
+    "@floating-ui/core": ^1.5.3
+    "@floating-ui/utils": ^0.2.0
+  checksum: 5e6f05532ff4e6daf9f2d91534184d8f942ddb8fd260c2543a49bdf0c0ff69fd0867937ce1d023126008724ac238f8fc89b5e48f82cdf9f8355a1d04edd085bd
   languageName: node
   linkType: hard
 
@@ -2423,10 +2451,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/react-dom@npm:^2.0.1":
+  version: 2.0.5
+  resolution: "@floating-ui/react-dom@npm:2.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40floating-ui%2Freact-dom%2F-%2Freact-dom-2.0.5.tgz"
+  dependencies:
+    "@floating-ui/dom": ^1.5.4
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 24cadf4626ae860b59cd3b86e0d8e9a51f1120f52aaa89cbed9425d78d0e0034e097a16bb022628996eb2386783c44b10aeb3c2988083fc046e0480e573d575d
+  languageName: node
+  linkType: hard
+
+"@floating-ui/react@npm:^0.24.8":
+  version: 0.24.8
+  resolution: "@floating-ui/react@npm:0.24.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40floating-ui%2Freact%2F-%2Freact-0.24.8.tgz"
+  dependencies:
+    "@floating-ui/react-dom": ^2.0.1
+    aria-hidden: ^1.2.3
+    tabbable: ^6.0.1
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: b345d3bbb7b1eb4a8d09bb5cb0c46713b0b051578a1bb15fb49708b27009dcb992cdd55ffc79ae56d7e4494ce122f6e971e7d2737c9a2bffd88cb2408230f9af
+  languageName: node
+  linkType: hard
+
 "@floating-ui/utils@npm:^0.1.3":
   version: 0.1.6
   resolution: "@floating-ui/utils@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40floating-ui%2Futils%2F-%2Futils-0.1.6.tgz"
   checksum: b34d4b5470869727f52e312e08272edef985ba5a450a76de0917ba0a9c6f5df2bdbeb99448e2c60f39b177fb8981c772ff1831424e75123471a27ebd5b52c1eb
+  languageName: node
+  linkType: hard
+
+"@floating-ui/utils@npm:^0.2.0":
+  version: 0.2.1
+  resolution: "@floating-ui/utils@npm:0.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40floating-ui%2Futils%2F-%2Futils-0.2.1.tgz"
+  checksum: 9ed4380653c7c217cd6f66ae51f20fdce433730dbc77f95b5abfb5a808f5fdb029c6ae249b4e0490a816f2453aa6e586d9a873cd157fdba4690f65628efc6e06
   languageName: node
   linkType: hard
 
@@ -2843,6 +2904,33 @@ __metadata:
   version: 2.0.4
   resolution: "@leichtgewicht/ip-codec@npm:2.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40leichtgewicht%2Fip-codec%2F-%2Fip-codec-2.0.4.tgz"
   checksum: 468de1f04d33de6d300892683d7c8aecbf96d1e2c5fe084f95f816e50a054d45b7c1ebfb141a1447d844b86a948733f6eebd92234da8581c84a1ad4de2946a2d
+  languageName: node
+  linkType: hard
+
+"@mantine/core@npm:^7.4.1":
+  version: 7.4.1
+  resolution: "@mantine/core@npm:7.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mantine%2Fcore%2F-%2Fcore-7.4.1.tgz"
+  dependencies:
+    "@floating-ui/react": ^0.24.8
+    clsx: 2.0.0
+    react-number-format: ^5.3.1
+    react-remove-scroll: ^2.5.7
+    react-textarea-autosize: 8.5.3
+    type-fest: ^3.13.1
+  peerDependencies:
+    "@mantine/hooks": 7.4.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: fbce1ffff61e1e188529749beb4d3d9b7ca218d6e79d727f6ad79857b56d0ad1c0ecaca39ed9fd7f4f19ad6ac730343642f23bfb719f7853c2ddbf5bc9b27ffc
+  languageName: node
+  linkType: hard
+
+"@mantine/hooks@npm:^7.4.1":
+  version: 7.4.1
+  resolution: "@mantine/hooks@npm:7.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mantine%2Fhooks%2F-%2Fhooks-7.4.1.tgz"
+  peerDependencies:
+    react: ^18.2.0
+  checksum: dea009e43f43b2e80735bdf913118cf8016058e3d119d6bbbb41713e0ed6f1a0d12688174b0a45d13c229c316a0c14a320b017ef9596a965377c9e864b810509
   languageName: node
   linkType: hard
 
@@ -3858,11 +3946,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sashathor/monorepo-lib-ui-kit@workspace:packages/ui-kit":
+"@sashathor/monorepo-lib-ui-kit@workspace:^, @sashathor/monorepo-lib-ui-kit@workspace:packages/ui-kit":
   version: 0.0.0-use.local
   resolution: "@sashathor/monorepo-lib-ui-kit@workspace:packages/ui-kit"
   dependencies:
     "@juggle/resize-observer": ^3.4.0
+    "@mantine/core": ^7.4.1
+    "@mantine/hooks": ^7.4.1
     "@rollup/plugin-commonjs": ^25.0.7
     "@rollup/plugin-node-resolve": ^15.2.3
     "@rollup/plugin-terser": ^0.4.4
@@ -5926,7 +6016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aria-hidden@npm:^1.1.1":
+"aria-hidden@npm:^1.1.1, aria-hidden@npm:^1.2.3":
   version: 1.2.3
   resolution: "aria-hidden@npm:1.2.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Faria-hidden%2F-%2Faria-hidden-1.2.3.tgz"
   dependencies:
@@ -6918,6 +7008,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:2.0.0":
+  version: 2.0.0
+  resolution: "clsx@npm:2.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fclsx%2F-%2Fclsx-2.0.0.tgz"
+  checksum: a2cfb2351b254611acf92faa0daf15220f4cd648bdf96ce369d729813b85336993871a4bf6978ddea2b81b5a130478339c20d9d0b5c6fc287e5147f0c059276e
+  languageName: node
+  linkType: hard
+
 "co@npm:^4.6.0":
   version: 4.6.0
   resolution: "co@npm:4.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fco%2F-%2Fco-4.6.0.tgz"
@@ -7820,6 +7917,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "demo1@workspace:apps/demo1"
   dependencies:
+    "@sashathor/monorepo-lib-ui-kit": "workspace:^"
     "@testing-library/jest-dom": ^5.17.0
     "@testing-library/react": ^13.4.0
     "@testing-library/user-event": ^13.5.0
@@ -15020,6 +15118,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-number-format@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "react-number-format@npm:5.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-number-format%2F-%2Freact-number-format-5.3.1.tgz"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 316054bc8aa03d4fe5b283b1e498389393858728b69acc32e2546e9ce2e54e4e937ca4fdd0fa6e771f1b5f2d8b3c883cbc19c39799a27e91265c133d79103aaa
+  languageName: node
+  linkType: hard
+
 "react-refresh@npm:^0.11.0":
   version: 0.11.0
   resolution: "react-refresh@npm:0.11.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-refresh%2F-%2Freact-refresh-0.11.0.tgz"
@@ -15027,7 +15137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-remove-scroll-bar@npm:^2.3.3":
+"react-remove-scroll-bar@npm:^2.3.3, react-remove-scroll-bar@npm:^2.3.4":
   version: 2.3.4
   resolution: "react-remove-scroll-bar@npm:2.3.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-remove-scroll-bar%2F-%2Freact-remove-scroll-bar-2.3.4.tgz"
   dependencies:
@@ -15059,6 +15169,25 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 2c7fe9cbd766f5e54beb4bec2e2efb2de3583037b23fef8fa511ab426ed7f1ae992382db5acd8ab5bfb030a4b93a06a2ebca41377d6eeaf0e6791bb0a59616a4
+  languageName: node
+  linkType: hard
+
+"react-remove-scroll@npm:^2.5.7":
+  version: 2.5.7
+  resolution: "react-remove-scroll@npm:2.5.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-remove-scroll%2F-%2Freact-remove-scroll-2.5.7.tgz"
+  dependencies:
+    react-remove-scroll-bar: ^2.3.4
+    react-style-singleton: ^2.2.1
+    tslib: ^2.1.0
+    use-callback-ref: ^1.3.0
+    use-sidecar: ^1.1.2
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: e0dbb6856beaed2cff4996d9ca62d775686ff72e3e9de34043034d932223b588993b2fc7a18644750dd3d73eb19bd3f2cedb8d91f0e424c1ef8403010da24b1d
   languageName: node
   linkType: hard
 
@@ -15143,6 +15272,19 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 7ee8ef3aab74c7ae1d70ff34a27643d11ba1a8d62d072c767827d9ff9a520905223e567002e0bf6c772929d8ea1c781a3ba0cc4a563e92b1e3dc2eaa817ecbe8
+  languageName: node
+  linkType: hard
+
+"react-textarea-autosize@npm:8.5.3":
+  version: 8.5.3
+  resolution: "react-textarea-autosize@npm:8.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-textarea-autosize%2F-%2Freact-textarea-autosize-8.5.3.tgz"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    use-composed-ref: ^1.3.0
+    use-latest: ^1.2.1
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: b317c3763f37a89621bbafd0e6e2d068e7876790a5ae77f497adfd6ba9334ceea138c8a0b7d907bae0f79c765cb24e8b2ca2b8033b4144c0bce28571a3658921
   languageName: node
   linkType: hard
 
@@ -16828,6 +16970,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tabbable@npm:^6.0.1":
+  version: 6.2.0
+  resolution: "tabbable@npm:6.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftabbable%2F-%2Ftabbable-6.2.0.tgz"
+  checksum: f8440277d223949272c74bb627a3371be21735ca9ad34c2570f7e1752bd646ccfc23a9d8b1ee65d6561243f4134f5fbbf1ad6b39ac3c4b586554accaff4a1300
+  languageName: node
+  linkType: hard
+
 "tailwindcss@npm:^3.0.2":
   version: 3.4.0
   resolution: "tailwindcss@npm:3.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftailwindcss%2F-%2Ftailwindcss-3.4.0.tgz"
@@ -17351,6 +17500,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"type-fest@npm:^3.13.1":
+  version: 3.13.1
+  resolution: "type-fest@npm:3.13.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftype-fest%2F-%2Ftype-fest-3.13.1.tgz"
+  checksum: c06b0901d54391dc46de3802375f5579868949d71f93b425ce564e19a428a0d411ae8d8cb0e300d330071d86152c3ea86e744c3f2860a42a79585b6ec2fdae8e
+  languageName: node
+  linkType: hard
+
 "type-is@npm:~1.6.18":
   version: 1.6.18
   resolution: "type-is@npm:1.6.18::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftype-is%2F-%2Ftype-is-1.6.18.tgz"
@@ -17617,6 +17773,41 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 7913df383a5a6fcb399212eedefaac2e0c6f843555202d4e3010bac3848afe38ecaa3d0d6500ad1d936fbeffd637e6c517e68edb024af5e6beca7f27f3ce7b21
+  languageName: node
+  linkType: hard
+
+"use-composed-ref@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "use-composed-ref@npm:1.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuse-composed-ref%2F-%2Fuse-composed-ref-1.3.0.tgz"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: f771cbadfdc91e03b7ab9eb32d0fc0cc647755711801bf507e891ad38c4bbc5f02b2509acadf9c965ec9c5f2f642fd33bdfdfb17b0873c4ad0a9b1f5e5e724bf
+  languageName: node
+  linkType: hard
+
+"use-isomorphic-layout-effect@npm:^1.1.1":
+  version: 1.1.2
+  resolution: "use-isomorphic-layout-effect@npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuse-isomorphic-layout-effect%2F-%2Fuse-isomorphic-layout-effect-1.1.2.tgz"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: a6532f7fc9ae222c3725ff0308aaf1f1ddbd3c00d685ef9eee6714fd0684de5cb9741b432fbf51e61a784e2955424864f7ea9f99734a02f237b17ad3e18ea5cb
+  languageName: node
+  linkType: hard
+
+"use-latest@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "use-latest@npm:1.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuse-latest%2F-%2Fuse-latest-1.2.1.tgz"
+  dependencies:
+    use-isomorphic-layout-effect: ^1.1.1
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: ed3f2ddddf6f21825e2ede4c2e0f0db8dcce5129802b69d1f0575fc1b42380436e8c76a6cd885d4e9aa8e292e60fb8b959c955f33c6a9123b83814a1a1875367
   languageName: node
   linkType: hard
 
